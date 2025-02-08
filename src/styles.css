@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.carousel_images {
+    /* height: 600px; */
+}
+
+.carousel_images div img {
+    width: 100%;
+    overflow: hidden;
+    height: 600px;
+    object-fit: cover;
+}
+
+.navbar-nav li {
+    margin: 0px 10px;
+}
+
+@media screen and (max-width:576px) {
+    .carousel_images div img {
+        width: 100%;
+        overflow: hidden;
+        height: 300px !important;
+    }
+}
+
+.about_us div img {
+    height: 400px;
+}
+
+.about_us div p {
+    text-align: justify;
+}
+
+@media screen and (max-width:576px) {
+    .about_us div img {
+        height: 280px;
+    }
+}
+
+.blog_section div img {
+    height: 250px;
+}
